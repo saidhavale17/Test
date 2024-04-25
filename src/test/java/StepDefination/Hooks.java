@@ -11,7 +11,7 @@ public class Hooks {
 		
 	}
 
-	@Before("@chrome")
+	@Before("@smoke")
 	public void before1()
 	{
 		System.out.println("It will be run before scenarios having tag chrome in all feature files which are mentioned under feature package mentioned in runner class");
