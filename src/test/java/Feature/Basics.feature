@@ -6,7 +6,7 @@ Given User is on login page
 When User clicks on sign up
 Then User should able to see all details
 #Reusability
-And user enters firstname "Ram"
+And user enters firstname "SAI"
  
 @chrome
 Scenario: Check Instagram login
@@ -14,7 +14,7 @@ Given User is on login page
 When User clicks on sign up
 Then User should able to see all details
 #Reusability
-And user enters firstname "Gopal" 
+And user enters firstname "Ashu" 
 
 #Parameterization: this will be run two times as two sets of parameter are there
 Scenario Outline: Check whatsapp login
